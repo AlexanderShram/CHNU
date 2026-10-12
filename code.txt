@@ -1,0 +1,16 @@
+// загл. формула: x = (double)m * g / b; 
+// нехай х це кiлограми масла отриманi з "s" молока
+
+#include <iostream>
+using namespace std;
+int main()
+
+{
+    int m = 5, b = 20, g = 8;
+    double x;
+
+    x = (double)m * g / b;
+    cout << "x = " << x << endl;
+
+    return 0;
+}
